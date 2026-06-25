@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Gaffrey Lab Infant Microstates Reliability",
+  "description": "This dataset comprises continuous EEG recordings from 48 infants (5-10 months old) during passive viewing of relaxing videos, collected to establish reliability metrics for microstate analysis in infant populations. The study demonstrates microstate analysis methodology applied to infant EEG data and provides a tutorial resource for researchers interested in this analytical approach. Data were acquired using a 128-channel geodesic sensor net at 1000 Hz sampling rate.",
+  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net referenced to vertex (Cz). Impedances were maintained below 50 kilohms. Infants (N=48, 5-10 months, 27 male) viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks) presented via E-Prime software, with attention-grabbing stimuli preceding each video. Caregivers provided minimal intervention, redirecting attention only by pointing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,27 @@
       "orcid": "0000-0002-9334-1079"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004635.v3.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "microstate analysis"
+    },
+    {
+      "term": "infant brain activity"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "reliability"
+    },
+    {
+      "term": "developmental neuroscience"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004635",
       "identifier_type": "URL",
@@ -32,67 +49,32 @@
       "identifier": "10.1007/s10548-024-01043-5",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004635.v3.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "Charles Lafitte Foundation"
-    },
-    {
-      "funder_name": "Charles Lafitte Foundation",
-      "award_number": "Not available"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "32.8 GB (103 files)"
   ],
   "formats": [
     ".json",
     ".m",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises continuous EEG recordings from 48 infants (5-10 months old) during passive video viewing, designed to establish reliability metrics for microstate analysis in infant populations. Participants watched relaxing videos while EEG was recorded using a 128-channel geodesic sensor net at 1000 Hz. The dataset serves as a tutorial resource and validation study for microstate analysis methodology in developmental neuroscience.",
-  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net referenced to vertex (Cz), with impedances maintained below 50 kΩ. Infants (N=48, 5-10 months, 27 male) sat on caregiver's lap and viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks) preceded by attention-grabbing stimuli. Videos were presented using E-Prime software.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "microstate analysis"
-    },
-    {
-      "term": "infant brain"
-    },
-    {
-      "term": "developmental neuroscience"
-    },
-    {
-      "term": "reliability"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "tutorial"
-    },
-    {
-      "term": "validation"
-    },
-    {
-      "term": "passive video viewing"
-    },
-    {
-      "term": "infant brain development"
-    },
-    {
-      "term": "HydroCel Geodesic Sensor Net"
-    }
-  ],
-  "source_hash": "6d7b2244b94a3ad034817c6bee5fa7ff65e260e4cb3d36004bd090643c52a976"
+  "source_hash": "9a171e398bc2ab136862191f18f5c63330864388c4389161ca959053c6833da2"
 }
