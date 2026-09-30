@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Gaffrey Lab Infant Microstates Reliability",
-  "description": "This dataset comprises continuous EEG recordings from 48 infants (5-10 months old) during passive viewing of relaxing videos, collected to establish reliability metrics for microstate analysis in infant populations. The study demonstrates microstate analysis methodology applied to infant EEG data and provides a tutorial resource for researchers interested in this analytical approach. Data were acquired using a 128-channel geodesic sensor net at 1000 Hz sampling rate.",
-  "methods_description": "EEG was recorded at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net referenced to vertex (Cz). Impedances were maintained below 50 kilohms. Infants (N=48, 5-10 months, 27 male) viewed up to 15 minutes of relaxing videos (ten 90-second videos with breaks) presented via E-Prime software, with attention-grabbing stimuli preceding each video. Caregivers provided minimal intervention, redirecting attention only by pointing.",
+  "description": "High-density EEG recordings from 48 infants aged 5-10 months who watched relaxing videos while seated on a caregiver's lap. The dataset supports microstate analysis of continuous infant EEG and evaluation of the reliability of microstate measures, and accompanies a tutorial on the analysis pipeline.",
+  "methods_description": "EEG was recorded at 1000 Hz with a 128-channel HydroCel Geodesic Sensor Net, referenced to the vertex (Cz), with impedances kept below 50 kilohms. Infants watched up to ten 90-second relaxing videos with sound, presented in E-Prime. Each video was preceded by a three-second attention grabber, and breaks separated the videos. Caregivers sat silently and could redirect the infant's attention only by pointing to the screen.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,29 +19,26 @@
       "term": "EEG"
     },
     {
-      "term": "microstate analysis"
+      "term": "EEG microstates"
     },
     {
-      "term": "infant brain activity"
-    },
-    {
-      "term": "electroencephalography"
+      "term": "infant"
     },
     {
       "term": "reliability"
     },
     {
-      "term": "developmental neuroscience"
+      "term": "high-density EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004635",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004635",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -54,6 +51,11 @@
       "identifier": "10.18112/openneuro.ds004635.v3.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004635",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -66,7 +68,7 @@
     "eeg"
   ],
   "sizes": [
-    "32.8 GB (103 files)"
+    "30.56 GB (103 files)"
   ],
   "formats": [
     ".json",
